@@ -79,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'USER':'postgres',
-        'NAME': 'flight_app',
-        'PORT':'5433',
-        'PASSWORD':'kipchumba95',
+        'NAME': 'your_db_name',
+        'PORT':'your_port',
+        'PASSWORD':'your_password',
         'HOST':'localhost'
     }
 }
